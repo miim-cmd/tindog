@@ -1,0 +1,176 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Black";
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.title-image {
+    transform: rotate(25deg);
+    width: 25%;
+    position: absolute;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navigation {
+    padding-left: 550px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* download-button */
+
+.download-button {
+    margin: 5% 3% 5%;
+}
+
+
+/* Title image */
+
+
+/* Features */
+
+#Features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.word {
+    font-weight: 1.5rem;
+}
+
+.words {
+    padding: 5%;
+}
+
+.center {
+    width: 100%;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.center:hover {
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricingg {
+    padding: 3% 2%;
+}
+
+
+/* CTA section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.social-network {
+    margin: 20px 10px;
+}
+
+#footer {
+    padding: 7% 15%;
+}
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
